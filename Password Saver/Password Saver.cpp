@@ -19,16 +19,12 @@ int main()
     string site_imput;
     string action;
 
-
+    //Intro
     cout << "Password Saver V" + stringver << endl;
+    cout << "You are using a version in beta. Beware of bugs." << endl; 
 
     cout << endl;
-
-    if (ver < 1)
-    {
-        cout << "Warring! You are using a Beta Version, beware of bugs.";
-    }
-
+    //The Program
     while (cont == true)
     {
         cout << "Please select a option \n View Passwords \n Create Password \n Credits \n (Caps Senivtive)" << endl;
